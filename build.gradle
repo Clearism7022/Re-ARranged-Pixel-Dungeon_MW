@@ -11,8 +11,8 @@ buildscript {
 allprojects {
 
     ext {
-        appName = 'Rearranged Pixel Dungeon'
-        appPackageName = 'com.rearrangedpixel.rearrangedpixeldungon'
+        appName = 'Rearranged Pixel Dungeon CM'
+        appPackageName = 'com.rearrangedpixel.rearrangedpixeldungoncm'
 
         appVersionCode = 859
         appVersionName = '3.2.0'
@@ -22,7 +22,7 @@ allprojects {
         appJavaCompatibility = JavaVersion.VERSION_1_8
 
         appAndroidCompileSDK = 34  //Android 14
-        appAndroidMinSDK = 21       //Android 5.0
+        appAndroidMinSDK = 24       //Android 7.0
         //significant layout management changes required for API 35+ as edge-to-edge is forced on
         //will do this at the same time as dropping support for Android 4.4- (later in 2025)
         appAndroidTargetSDK = 34    //Android 14
