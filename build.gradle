@@ -11,8 +11,8 @@ buildscript {
 allprojects {
 
     ext {
-        appName = 'Rearranged Pixel Dungeon CM'
-        appPackageName = 'com.rearrangedpixel.rearrangedpixeldungoncm'
+        appName = 'Rearranged Pixel Dungeon MW'
+        appPackageName = 'com.rearrangedpixel.rearrangedpixeldungonmw'
 
         appVersionCode = 859
         appVersionName = '3.2.0'
